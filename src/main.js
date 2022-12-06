@@ -1,4 +1,3 @@
-const { createApp } = require('vue');
 import App from "./App.vue";
 import CKEditor from "ckeditor4-vue";
 import Vue from "vue";
