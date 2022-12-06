@@ -1,4 +1,10 @@
 const { createApp } = require('vue');
 import App from "./App.vue";
+import CKEditor from "ckeditor4-vue";
+import Vue from "vue";
 
-createApp(App).mount("#app");
+Vue.use(CKEditor)
+
+new Vue({
+  render: h => h(App)
+}).$mount("#app");
